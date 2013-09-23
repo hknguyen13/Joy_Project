@@ -2161,6 +2161,11 @@ aside ul {
 /*	----------------------------------------------------------
 	Footer
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+ul li div div.flex-button#submit_button a{
+	padding: 3px; border:2px solid white;	
+}
+
+
 #colophon {
 	background: #e53b51 url("images/footer-transparent.png") repeat-x top;
 	padding-top: 40px;
