@@ -2162,7 +2162,8 @@ aside ul {
 	Footer
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 ul li div div.flex-button#submit_button a{
-	padding: 3px; border:2px solid white;	
+	padding: 3px; 
+	border:2px solid white;	
 }
 
 
