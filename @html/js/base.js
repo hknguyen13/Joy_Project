@@ -36,7 +36,7 @@ jQuery(document).ready(function(){
 	/* Featured News Slider */
 	jQuery(window).load(function() {
 		jQuery('.flexslider-news').flexslider({
-		controlNav: false,
+		controlNav: true,
 		directionNav:true,
 		animationLoop: true,
 		animation: "fade",
