@@ -671,7 +671,7 @@ nav select {
 #site-navigation  ul li a {
 	padding:5px;
 	text-decoration: none;
-	color: #3b3b3d;
+	color: #fff;
 	-webkit-transition: border .5s ease-out;
 }
 
@@ -740,7 +740,7 @@ ul.sub-menu li:last-child {
 	height: auto;
 	font-size:13px !important;
 	display: block;
-
+	color: #000000;
 }
 
 ul.sub-menu li:hover {

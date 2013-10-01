@@ -4,7 +4,7 @@
 	
 	<!--  Basic Page Needs -->
 	<meta charset="UTF-8" />
-	<title>Joy / Project - HTML Theme</title>
+	<title>Joy Project - HTML Theme</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -22,6 +22,7 @@
 	<link rel="stylesheet" type="text/css" media="all" href="css/font-awesome-ie7.min.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="css/keyframes.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="css/grid.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/jshowoff.css" />	
 	
 	<!-- Scripts -->
 	<script type='text/javascript' src='js/jquery.min.js'></script>
@@ -30,6 +31,8 @@
 
 	<!-- Scripts for plugins -->
 	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/jShowOff/jquery.jshowoff.min.js"></script>
+	<script src="js/jShowOff/jquery.jshowoff.js"></script>
 	<script src="js/jquery.flexslider-min.js"></script>
 	<script src="js/jquery.inview.js"></script>
 	<script src="js/jquery.scrollParallax.min.js"></script>
@@ -45,61 +48,39 @@
 <body class="home blog two-column right-sidebar" data-twttr-rendered="true">
 	<div id="page">
 
-		<!-- Toolbar -->
+		<!-- Toolbar 
 		<div id="toolbar">
 			<div class="container_16">
 				<div class="grid_16">
 				<ul>
-					<li class="phone"><a href="tel:+1 554 555 5555" >Tel.: +1 502-209-9960</a></li>
-					<li class="rss"><a href="#"><i class="icon-rss"></i></a></li>
-					<li class="contact"><a href="#"><i class="icon-envelope"></i></a></li>
-					<li class="share"><a href="#"><i class="icon-share"></i></a>
-						<ul class="share-items radius-bottom">
-							<li class="share-item-fb radius"><a href="#"><i class="icon-facebook-sign"></i></a></li>
-							<li class="share-item-tw radius"><a href="#"><i class="icon-twitter-sign"></i></a></li>
-							<li class="share-item-gp radius"><a href="#"><i class="icon-google-plus-sign"></i></a></li>
-						</ul>
-					</li>
-					<li class="search"><a href="#"><i class="icon-search"></i></a>
-						<ul class="search-items radius-bottom">
-							<li>
-								<div class="search-form">
-									<form method="get" id="searchform" action="action">
-										<div>
-											<input class="radius" type="text" size="" name="s" id="s" value="Type your searching word" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
-											<input type="submit" id="searchsubmit" value="Search" />
-										</div>
-									</form>
-								</div>
-							</li>
-						</ul>
-					</li>
 					<li class="donate"><a href="#">Donate <i class="icon-tint"></i></a></li>
 				</ul>
 				</div>
 			</div>
 		</div>
+		-->
+
 		<!-- /#toolbar -->
 
 		<header id="branding" class="site-header" role="banner">
-			<div id="sticky_navigation">
+			<div style="background:#808080" id="sticky_navigation">
 				<div class="container_16">
 					<hgroup class="fleft grid_5">
-						<h1 id="site-title"><a href="01-home-page.html" title="Charitas - Foundation" rel="home">The Joy Project</a></h1>
+						<a ref="01-home-page.html" title="Charitas - Foundation" rel="home"><img style="width:6em;height:6em"src="images/Joy_Logo_Gray.png"/></a>
 					</hgroup>
 
 					<nav role="navigation" class="site-navigation main-navigation grid_11" id="site-navigation">
 						<div class="menu-wplook-main-menu-container">
 							<ul id="menu-wplook-main-menu" class="menu">
-								<li class="menu-item "><a href="01-home-page.html">Home</a></li>
-								<li class="menu-item "><a href="02-causes-list.html">Our Stories</a>
+								<li class="menu-item "><a href="#mission">Home</a></li>
+								<li class="donate"><a href="#">Donate <i class="icon-tint"></i></a></li>
+								<li class="menu-item "><a href="#stories">Our Stories</a>
 									<ul class="sub-menu">
 										<li class="menu-item"><a href="#">Upcoming Projects</a></li>
 										<li class="menu-item"><a href="02-causes-list.html">Past Projects</a></li>
 
 									</ul>
 								</li>
-								<li class="menu-item "><a href="10-contact.html">Contact Us</a></li>
 							</ul>
 						</div>
 					</nav>
@@ -166,13 +147,11 @@
 			</div>
 		</div>
 
-
 		<div id="main" class="site-main container_16">
 			<div class="inner">
-				
 				<!-- First widget areea -->
 				<div class="grid_12 first-home-widget-area">
-						
+					<a name="mission"></a>
 					<div class="widget-title mright mleft" style="text-align:center">
 						<h3 style="font-size:4em; margin-bottom:-20px">Our Mission</h3>
 						<div class="clear"></div>
@@ -182,6 +161,7 @@
 						</div>
 					<div class="clear"></div>
 				</div>
+
 					<!--
 						<div class="latestnews-body flexslider-news">
 							<ul class="slides">
@@ -201,7 +181,8 @@
 				<!-- Third widget areea -->
 				<div class="grid_16 third-home-widget-area">
 					<aside id="wpltfbs-f2w" class="widget WPlookCauses">	
-						<div class="widget-title">
+						<a name="stories"></a>
+						<div style="margin-left:-10px" class="widget-title">
 							<h3>Latest Stories</h3>
 							<div class="viewall fright"><a href="02-causes-list.html" class="radius" title="View all causes">view all</a></div>
 							<div class="clear"></div>
@@ -209,6 +190,24 @@
 						
 						<div class="widget-causes-body">
 							<!-- First cause -->
+					
+							<div class="jshowoff" id="features">
+								<div><div style="display:inline;float:left"><p>The Delgado’s are a poverty stricken family from downtown Lexington. With a baby on the way they were struggling to find space for the new member of the family. This is when the Joy Project stepped in and donated valuable time and money to help out!</p></div>
+								<img style="float:left;display:inline" src="images/temp/delgado_photo 2.jpg"/></div>
+
+								<div><p>Karen is a friend of ours that works at Dunkin Donuts in downtown Lexington. At the age of 20 her daughter was murdered in the middle of the night. Exemplifying how donating one's time can make all the difference, The Joy Project reached out to Karen and visited her when she was in need.</p>
+								<img src="images/temp/karen.jpg"/></div>
+
+								<div><p>Joe a local Lexingtonian who runs a business flipping houses was in need of help finishing his latest project on time. However, with The Joy Project on his side 15 volunteers managed to come out for a day and help finish construction, setting the project back on track!</p>
+								<img src="images/temp/Joe_house_3.jpg"/></div>
+
+								<div><p>Pete was once an alcoholic and homeless, but thanks to The Joy Project that is no longer the case!</p>
+								<img src="images/temp/anti_alcohol.jpg"/></div>
+							</div>
+							<script type="text/javascript">		
+								$(document).ready(function(){ $('#features').jshowoff(); });
+							</script>
+					<!-- Story Articles
 							<article class="cause-item">
 								<figure>
 									<a title="Image title" href="the_delgado.html">
@@ -226,8 +225,8 @@
 									<p>The Delgado’s are a poverty stricken family from downtown Lexington. With a baby on the way they were struggling to find space for the new member of the family. This is when the Joy Project stepped in and donated valuable time and money to help out!</p>
 								</div>
 							</article>
-
-							<!-- Second Cause -->
+							
+						<Second Cause>
 							<article class="cause-item">
 								<figure>
 									<a title="Image title" href="karen.html">
@@ -246,7 +245,7 @@
 									</div>
 							</article>
 
-							<!-- Third Cause -->
+							<Third Cause>
 							<article class="cause-item">
 								<figure>
 									<a title="Image title" href="flipping_house.html">
@@ -265,7 +264,7 @@
 								</div>
 							</article>
 
-							<!-- Forth Cause -->
+							<Forth Cause>
 							<article class="cause-item">
 								<figure>
 									<a title="Image title" href="pete_painter.html">
@@ -283,7 +282,7 @@
 										<p>Pete was once an alcoholic and homeless, but thanks to The Joy Project that is no longer the case!</p>
 									</div>
 							</article>
-
+						-->
 						</div>
 					</aside>
 				</div>
@@ -299,7 +298,7 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div id="tertiary" class="sidebar-container" role="complementary">
 				<div class="container_16">
-					
+					<a name="contact">
 					<!-- First Widget Area -->
 					<div style="width:28%" class="grid_4">
 						<aside id="meta-0" class="widget widget_adress">
@@ -316,7 +315,7 @@
 							</address>
 						</aside>
 					</div>
-			
+					</a>
 					<!-- Second Widget Area
 					<div class="grid_4">
 						<aside id="meta-1" class="widget widget_meta">
