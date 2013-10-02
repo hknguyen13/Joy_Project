@@ -28,6 +28,7 @@ Tags: black, blue, green, orange, pink, red, white, two-columns, right-sidebar, 
 /* Custom Font-Styles */
 @font-face { font-family: Yanone; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Regular.otf'); }
 @font-face { font-family: Yanone; font-weight: bold; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Bold.otf'); }
+@font-face { font-family: Sketch; src: url('css/font/SketchSerif.otf'); }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
