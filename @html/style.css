@@ -25,6 +25,10 @@ Tags: black, blue, green, orange, pink, red, white, two-columns, right-sidebar, 
 	Based on work by Eric Meyer and html5doctor.com
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
+/* Custom Font-Styles */
+@font-face { font-family: Yanone; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Regular.otf'); }
+@font-face { font-family: Yanone; font-weight: bold; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Bold.otf'); }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, cite, code,
@@ -387,14 +391,12 @@ a:hover {
 
 #sticky_navigation {
 	position: fixed;
-	top:0;
-	left:0;
-	background: #fff;
+	top:0px;
+	left:0px;
 	width: 100%;
 	z-index: 99;
-	padding: 20px 0;
-	min-height: 60px;
-	border-bottom: 1px solid #f3f3f3;
+	padding-bottom: 0px;
+	background: #6699FF;
 }
 
 #toolbar {
@@ -653,9 +655,9 @@ nav select {
 #site-navigation  ul {
 	list-style-type:none;
 	float:right;
-	padding: 15px 0 0 0;
+	padding: 2.7em 0 0 0;
 	margin:0;
-	font-size: 16px;
+	font-size: 17px;
 	font-family: 'Archivo Narrow', sans-serif;
 	text-transform: uppercase;
 }
@@ -1822,13 +1824,14 @@ aside ul {
 /*	----------------------------------------------------------
 	Home page widgets
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
 p.description {
 	color: #fff;
 	padding: 15px;
 	padding-left: 30px;
 	text-align: left;
-	font-size: 1.5em;
-	font-family: Gill Sans,Verdana;
+	font-size: 1.8em;
+	font-family: Yanone, Gill Sans, Verdana;
 }
 
 .first-home-widget-area, .second-home-widget-area, .third-home-widget-area, .forth-home-widget-area{
