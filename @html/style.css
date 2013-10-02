@@ -388,14 +388,22 @@ a:hover {
 /*	----------------------------------------------------------
 	Header
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+#header-title {
+	font-size: 35px;
+	color: #fff;
+	margin-top: -85px;
+	margin-left: 120px;
+	position: fixed;
+	font-family: Yanone;
+}
 
-#sticky_navigation {
+#fixed_navigation {
 	position: fixed;
 	top:0px;
 	left:0px;
 	width: 100%;
 	z-index: 99;
-	padding-bottom: 0px;
+	max-height: 8em;
 	background: #6699FF;
 }
 
@@ -657,7 +665,7 @@ nav select {
 	float:right;
 	padding: 2.7em 0 0 0;
 	margin:0;
-	font-size: 17px;
+	font-size: 18px;
 	font-family: 'Archivo Narrow', sans-serif;
 	text-transform: uppercase;
 }
