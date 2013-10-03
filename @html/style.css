@@ -2188,17 +2188,17 @@ p.description {
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 .site-footer {
 	font-family: Yanone-Light;
-	font-size: 20px;
+	font-size: 19px;
 }
 
 .site-footer span {
-	font-size: 23px;
+	font-size: 20px;
 }
 
 .site-footer h3 {
 	font-family: Yanone;
 	font-weight: bold;
-	font-size:1.9em;
+	font-size:1.5em;
 }
 
 #colophon {
@@ -2261,6 +2261,7 @@ a.follow{
 .site-info {
 	background: #000;
 	font-size: 12px;
+	font-family: Gill Sans;
 }
 
 .copy{
