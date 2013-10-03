@@ -28,6 +28,8 @@ Tags: black, blue, green, orange, pink, red, white, two-columns, right-sidebar, 
 /* Custom Font-Styles */
 @font-face { font-family: Yanone; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Regular.otf'); }
 @font-face { font-family: Yanone; font-weight: bold; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Bold.otf'); }
+@font-face { font-family: Yanone-Light; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Light.otf'); }
+@font-face { font-family: Yanone-Thin; src: url('css/font/YanoneKaffeesatzOTF/YanoneKaffeesatz-Thin.otf'); }
 @font-face { font-family: Sketch; src: url('css/font/SketchSerif.otf'); }
 
 html, body, div, span, applet, object, iframe,
@@ -666,8 +668,8 @@ nav select {
 	float:right;
 	padding: 2.7em 0 0 0;
 	margin:0;
-	font-size: 18px;
-	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 1.7em;
+	font-family: Yanone, 'Archivo Narrow', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -676,7 +678,6 @@ nav select {
 	display:inline-block;
 	padding:0px 0 10px 0;
 	margin-left:10px;
-
 }
 
 #site-navigation  ul li a {
@@ -749,7 +750,7 @@ ul.sub-menu li:last-child {
 #site-navigation  ul.sub-menu li a {
 	padding:0px 12px;
 	height: auto;
-	font-size:13px !important;
+	font-size:18px !important;
 	display: block;
 	color: #000000;
 }
@@ -1839,7 +1840,7 @@ p.description {
 	padding: 15px;
 	padding-left: 30px;
 	text-align: left;
-	font-size: 1.8em;
+	font-size: 1.9em;
 	font-family: Yanone, Gill Sans, Verdana;
 }
 
@@ -1863,6 +1864,9 @@ p.description {
 	padding-right: 12px;
 	padding-left: 12px;
 	color: #3b3b3d;
+	font-size: 1.9em;
+	font-family: Yanone;
+	font-weight: bold;
 }
 
 .widget-title .viewall {
@@ -2182,6 +2186,21 @@ p.description {
 /*	----------------------------------------------------------
 	Footer
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+.site-footer {
+	font-family: Yanone-Light;
+	font-size: 20px;
+}
+
+.site-footer span {
+	font-size: 23px;
+}
+
+.site-footer h3 {
+	font-family: Yanone;
+	font-weight: bold;
+	font-size:1.9em;
+}
+
 #colophon {
 	background: #e53b51 url("images/footer-transparent.png") repeat-x top;
 	padding-top: 40px;
