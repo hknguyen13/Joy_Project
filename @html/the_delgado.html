@@ -4,7 +4,7 @@
 	
 	<!--  Basic Page Needs -->
 	<meta charset="UTF-8" />
-	<title>Joy / Project - HTML Theme</title>
+	<title>Joy Project - HTML Theme</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -14,7 +14,7 @@
 	
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
+
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" media="all" href="style.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="css/font-awesome.min.css" />
@@ -22,6 +22,7 @@
 	<link rel="stylesheet" type="text/css" media="all" href="css/font-awesome-ie7.min.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="css/keyframes.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="css/grid.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/jshowoff.css" />
 	
 	<!-- Scripts -->
 	<script type='text/javascript' src='js/jquery.min.js'></script>
@@ -30,26 +31,50 @@
 
 	<!-- Scripts for plugins -->
 	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/jShowOff/jquery.jshowoff.min.js"></script>
+	<script src="js/jShowOff/jquery.jshowoff.js"></script>
 	<script src="js/jquery.flexslider-min.js"></script>
 	<script src="js/jquery.inview.js"></script>
 	<script src="js/jquery.scrollParallax.min.js"></script>
+	<script src="js/base.js"></script>
+
+	<!-- Link Slider Function with Flexslider Plugin -->
+	<script type="text/javascript" charset="utf-8">
+  		$(window).load(function() {
+    		$('.flexslider').flexslider();
+  		});
+	</script>
 </head>
 <body class="home blog two-column right-sidebar" data-twttr-rendered="true">
 	<div id="page">
 
+		<!-- Toolbar 
+		<div id="toolbar">
+			<div class="container_16">
+				<div class="grid_16">
+				<ul>
+					<li class="donate"><a href="#">Donate <i class="icon-tint"></i></a></li>
+				</ul>
+				</div>
+			</div>
+		</div>
+		-->
+
 		<!-- /#toolbar -->
+
 		<header id="branding" class="site-header" role="banner">
-			<div style="background:#808080" id="sticky_navigation">
+			<div id="fixed_navigation">
 				<div class="container_16">
 					<hgroup class="fleft grid_5">
-						<a ref="01-home-page.html" title="Charitas - Foundation" rel="home"><img style="width:6em;height:6em"src="images/Joy_Logo_Gray.png"/></a>
+						<a ref="01-home-page.html" title="Charitas - Foundation" rel="home"><img style="padding-top:0.2em;padding-bottom:0.2em;width:7.5em;height:7.5em"src="images/Joy_Logo_FINAL_No-Words.gif"/></a>
+						<p id="header-title">Creating Continuous Joy</p>
 					</hgroup>
 
 					<nav role="navigation" class="site-navigation main-navigation grid_11" id="site-navigation">
 						<div class="menu-wplook-main-menu-container">
 							<ul id="menu-wplook-main-menu" class="menu">
 								<li class="menu-item "><a href="#mission">Home</a></li>
-								<li class="donate"><a href="#">Donate <i class="icon-tint"></i></a></li>
+								<li class="donate"><a href="#">Donate</a></li>
 								<li class="menu-item "><a href="#stories">Our Stories</a>
 									<ul class="sub-menu">
 										<li class="menu-item"><a href="#">Upcoming Projects</a></li>
@@ -86,26 +111,12 @@
 			<div class="inner">
 				<div id="primary" class="grid_11 suffix_1">
 					<article class="single">
-						
+						<h2 class="story_title">The Delgado's</h2>
 						<div class="entry-content">
-							
 							<figure>
-								
 								<img width="848" height="352" src="images/temp/delgado_photo 3.jpg" class="wp-post-image" alt="Image alt">
 									
 							</figure> 
-							
-						
-
-							<div class="long-description">
-								<h3>The Delgado’s are a poverty stricken family from downtown Lexington.</h3>
-								<br /><p>In the Fall of 2012 the Delgado’s found out they were having a baby.  This would make the 8th baby in the family.  The family was already living in harsh conditions at a 3 bedroom house with only 2 bedrooms operable and terrible sleeping conditions.
-								The Joy Project decided to help out by investing in bunk beds, baby supplies, additional furniture and spending a couple of weekends clearing out the 3rd bedroom to make it usable.</p>
-							</div>
-
-							
-							<div class="clear"></div>
-
 						</div>
 
 						<div class="clear"></div>
@@ -122,14 +133,11 @@
 						<div class="widget-causes-body">
 							
 							<article class="cause-item">
-								<figure>
-									<a title="Image title" href="02-causes-list.html">
-										<img width="272" height="150" src="images/temp/272x150.jpg" class="wp-post-image" alt="Image alt">
-										<div class="mask radius">
-											<div class="mask-square"><i class="icon-tint"></i></div>
-										</div>
-									</a>
-								</figure>
+								<div class="long-description">
+									<h3>The Delgado’s are a poverty stricken family from downtown Lexington.</h3>
+									<br /><p>In the Fall of 2012 the Delgado’s found out they were having a baby.  This would make the 8th baby in the family.  The family was already living in harsh conditions at a 3 bedroom house with only 2 bedrooms operable and terrible sleeping conditions.
+									The Joy Project decided to help out by investing in bunk beds, baby supplies, additional furniture and spending a couple of weekends clearing out the 3rd bedroom to make it usable.</p>
+								</div>
 							</article>
 
 						</div>
@@ -144,26 +152,24 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div id="tertiary" class="sidebar-container" role="complementary">
 				<div class="container_16">
-					
+					<a name="contact">
 					<!-- First Widget Area -->
-					<div class="grid_4">
+					<div style="width:28%" class="grid_4">
 						<aside id="meta-0" class="widget widget_adress">
 							<h3>Contact us</h3>
 							<address class="vcard">
-								<p class="org vcard"><a class="url fn org" href="www.awesomeinc.org">Awesome Inc</a><p>
+								<p class="org vcard"><a style="font-family:Yanone;font-weight:bold;font-size:1.65em">Joy Project</a><p>
 								<p class="adr">
-									<b>Street Name</b> -<span class="street-address"> 348 E Main St. KY</span><br>
+									<span class="street-address"> 348 East Main St.</span><br>
 									<span class="region"> Lexington,</span>
-									<span class="postal-code"> 40507,</span>
-									<span class="country-name"> USA</span>
+									<span class="state"> KY</span>
+									<span class="postal-code"> 40507</span>
 								</p>
-								<b>Phone:</b><span class="tel"> +1 (502)209-9960</span><br />
-								<b>E-mail:</b><span class="email"> Kelsey@AwesomeInc.org</span><br />
-								<b>Website:</b><span class="url"> www.awesomeinc.org</span><br />
+								<span class="email">founders@joyproject.com</span><br />
 							</address>
 						</aside>
 					</div>
-			
+					</a>
 					<!-- Second Widget Area
 					<div class="grid_4">
 						<aside id="meta-1" class="widget widget_meta">
@@ -182,22 +188,22 @@
 						<aside id="meta-2" class="widget widget_meta">
 							<h3>Get involved</h3>
 							<ul>
-								<li><a href="https://docs.google.com/forms/d/1wXtJBtjpzRLHSv5HHCrR15Cit7sTKE5PSSkLVn8opDU/viewform">Sign Up For The Joy Team</a></li>
-								<li><a href="https://docs.google.com/forms/d/1LayyhkvkaTxxx2CW74PC6KRhwSlX0uYp9ZEHMQvDLAw/viewform">Enroll For Updates</a></li>
+								<li><a href="Paypal/account.com">Donate to the Joy Project</a></li>
+								<li><a href="https://docs.google.com/forms/d/1LayyhkvkaTxxx2CW74PC6KRhwSlX0uYp9ZEHMQvDLAw/viewform" target="_blank">Subscribe to Updates</a></li>
 							</ul>
 						</aside>
 					</div>
 					
 					<!-- Forth Widget Area -->
-					<div class="grid_4">
+					<div class="grid_4" style="width:30%; margin-left:5em">
 						<aside id="meta-3" class="widget widget_meta">
 							<h3>Submit Your Joy Project Ideas</h3>
 							<div class="latest-tweets-body">
-								Have a great idea? Tell us all about it and we can put it in motion for you!
-								<div style="padding:5px; text-align:right">
-									<div class="flex-button"><a href="https://docs.google.com/forms/d/1ui-GKUTxbJduFx_a2xHMt8hN5Ns-70wlT288kiNMuC8/viewform" style="padding: 3px; border:1px solid white">Submit Your Idea</a>
+								Know someone in need of Joy? Tell us all about it and we can put it in motion for you.
+								<div style="padding:12px; text-align:right">
+									<div class="flex-button"><a href="https://docs.google.com/forms/d/1ui-GKUTxbJduFx_a2xHMt8hN5Ns-70wlT288kiNMuC8/viewform" style="padding:5px; font-weight:bold; border:2px solid white" target="_blank">Submit Your Idea</a>
+									</div>
 								</div>
-							</div>
 							</div>
 							</aside>
 					</div>
@@ -213,12 +219,12 @@
 					
 					<!-- CopyRight -->
 					<div class="grid_8">
-						<p class="copy">Copyright ©  2013.  All Rights reserved.  </p>
+						<p class="copy">Copyright ©  2013. Joy Project.  All Rights Reserved.</p>
 					</div>
 
 					<!-- Design By -->
 					<div class="grid_8">
-						<p class="designby">Designed by <a href="http://wplook.com">TeamAlpha</a></p>
+						<p class="designby">Designed by <a>Huu Nguyen</a></p>
 					</div>
 
 					<div class="clear"></div>

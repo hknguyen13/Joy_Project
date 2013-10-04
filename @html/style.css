@@ -56,6 +56,27 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+/* Story Title */
+.story_title {
+	font-family: Yanone;
+	font-weight: bold;
+	font-size: 3.0em;
+	padding-bottom: 10px;
+	margin-top: -40px;
+}
+
+/* Story Description */
+.long-description {
+	display: block;
+	margin-left: -50%;
+	margin-top: 10%;
+	font-size: 1.9em;
+}
+
+.long-description p {
+	margin-top: -5%;
+}
+
 
 /*	----------------------------------------------------------
 	Remember to define focus styles!
@@ -407,7 +428,8 @@ a:hover {
 	width: 100%;
 	z-index: 99;
 	max-height: 8em;
-	background: #6699FF;
+	background: #333333;
+	/*background: #6699FF;*/
 }
 
 #toolbar {
