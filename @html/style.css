@@ -431,13 +431,19 @@ a:hover {
 	background: #333333;
 }
 
+html body {
+	height: 100%;
+}
+
 div#image-container {
 	display:block; 
-	width:1089px; 
-	overflow-x:hidden; 
+	width:75.8%; 
+	overflow-x:hidden;
+	overflow-y:hidden; 
 	padding-top:50px; 
-	margin:auto; 
-	max-height:560px;
+	margin-left:12.1%;
+	margin-bottom:-5.2em; 
+	height: 100%;
 }
 
 #toolbar {
