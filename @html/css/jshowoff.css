@@ -248,8 +248,8 @@ a.submit {
 	-moz-border-radius: 0;
 	}
 .jshowoff div div, .jshowoff div h2 {
-	background-color: #666;
-	color: #fff;
+	height: 100%;
+	width: 100%;
 	}
 .jshowoff h2, .jshowoff p {
 	font-size: 18px;
@@ -259,6 +259,10 @@ a.submit {
 .jshowoff p {
 	font-size: 13px;
 	line-height: 15px;
+	}
+.jshowoff img {
+	height: 100%;
+	width: 100%;
 	}
 .eddie {
 	float: right;

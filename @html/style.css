@@ -447,6 +447,11 @@ div#image-container {
 }
 
 div.header_phrase {
+	position:absolute;
+	margin-left:32%;
+	margin-top:13%;
+	padding-left:5px;
+	padding-right:5px;
 	color:white;
 	background-opacity: 80%;
 	background-color: #e53b51;
