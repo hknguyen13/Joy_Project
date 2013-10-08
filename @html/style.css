@@ -446,6 +446,16 @@ div#image-container {
 	height: 100%;
 }
 
+div.header_phrase {
+	color:white;
+	background-opacity: 80%;
+	background-color: #e53b51;
+	display:inline-block;
+	border-radius: 1px;
+	font-size: 33px;
+	font-family: Yanone;
+}
+
 #toolbar {
 	background: #000;
 	height: 40px;
