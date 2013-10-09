@@ -453,8 +453,7 @@ div.header_phrase {
 	padding-left:5px;
 	padding-right:5px;
 	color:white;
-	background-opacity: 80%;
-	background-color: #e53b51;
+	background-color: rgba(229, 59, 81, 0.8);
 	display:inline-block;
 	border-radius: 1px;
 	font-size: 33px;
