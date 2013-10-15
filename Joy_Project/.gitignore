@@ -16,6 +16,9 @@ local.properties
 .settings/
 .loadpath
 
+# ignore Database for server production
+github.php
+
 # External tool builders
 .externalToolBuilders/
 
