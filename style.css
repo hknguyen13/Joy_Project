@@ -898,6 +898,16 @@ ul.sub-menu li:hover {
 	Article List
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
+.jshowoff div p {
+	font-size: 28px;
+	font-family: Yanone;
+	color: white;
+	background: #696969;
+	overflow: auto;
+	margin-left: 0px;
+	height: 100%
+}
+
 article.list {
 	margin-bottom: 48px;
 	padding-bottom: 48px;

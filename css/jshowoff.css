@@ -258,11 +258,12 @@ a.submit {
 	}
 .jshowoff p {
 	font-size: 13px;
-	line-height: 15px;
 	}
 .jshowoff img {
 	height: 100%;
-	width: 100%;
+	width: 50%;
+	float: left;
+	clear: both;
 	}
 .eddie {
 	float: right;
