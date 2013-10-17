@@ -448,15 +448,15 @@ div#image-container {
 
 div.header_phrase {
 	position:absolute;
-	margin-left:32%;
-	margin-top:13%;
-	padding-left:5px;
-	padding-right:5px;
+	margin-left:31%;
+	margin-top:16%;
+	padding-left:7px;
+	padding-right:7px;
 	color:white;
 	background-color: rgba(229, 59, 81, 0.8);
 	display:inline-block;
 	border-radius: 1px;
-	font-size: 33px;
+	font-size: 40px;
 	font-family: Yanone;
 }
 
