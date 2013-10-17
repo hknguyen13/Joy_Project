@@ -449,7 +449,7 @@ div#image-container {
 div.header_phrase {
 	position:absolute;
 	margin-left:31%;
-	margin-top:16%;
+	margin-top:30%;
 	padding-left:7px;
 	padding-right:7px;
 	color:white;
@@ -814,6 +814,13 @@ ul.sub-menu li:hover {
 /*	----------------------------------------------------------
 	Content
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+.indiv_story {
+	font-family: serif;
+	font-size: 15px;
+	border: solid 2px white;
+	padding: 2px;
+}
 
 .teaser-page .page-title{
 	margin-top: 140px;
