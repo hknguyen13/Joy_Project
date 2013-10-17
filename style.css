@@ -408,6 +408,11 @@ a:hover {
 	margin: 95px 0;
 }
 
+.indiv_story a {
+	color: white;
+	text-decoration: none;
+}
+
 
 /*	----------------------------------------------------------
 	Header
@@ -449,7 +454,7 @@ div#image-container {
 div.header_phrase {
 	position:absolute;
 	margin-left:31%;
-	margin-top:30%;
+	margin-top:26.5%;
 	padding-left:7px;
 	padding-right:7px;
 	color:white;
@@ -1977,6 +1982,8 @@ p.description {
 }
 .widget-causes-body .cause-item p {
 	margin-bottom: 0px;
+	font-size: 22px;
+	font-family: Yanone;
 }
 
 /* Grid 8 */

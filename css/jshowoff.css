@@ -224,8 +224,8 @@ a.submit {
 	background: #efefef;
 	position: relative;
 	overflow: hidden;
-	width: 79.7%;
-	height: 450px;
+	width: 75.7%;
+	height: 400px;
 	margin: auto;
 	-webkit-border-top-left-radius: 6px;
 	-webkit-border-top-right-radius: 6px;
@@ -261,7 +261,7 @@ a.submit {
 	}
 .jshowoff img {
 	height: 100%;
-	width: 60%;
+	width: 100%;
 	float: left;
 	clear: both;
 	}
@@ -272,7 +272,7 @@ a.submit {
 .jshowoff p.jshowoff-slidelinks {
 	position: absolute;
 	bottom: 5px;
-	right: 10.5%;
+	right: 12.5%;
 	margin: 0;
 	padding: 0;
 	}
@@ -301,7 +301,7 @@ p.jshowoff-controls {
 	background: #aaa;
 	overflow: auto;
 	height: 1%;
-	width: 79.5%;
+	width: 75.5%;
 	padding: 0 0 5px 5px;
 	margin: auto;
 	-moz-border-radius-bottomleft: 6px;
