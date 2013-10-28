@@ -9,8 +9,7 @@
 	<meta name="author" content="">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="favicon.ico" />
-	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+	<link rel="shortcut icon" href="images/Joy_Logo.ico">
 	
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -49,7 +48,7 @@
 	  ga('send', 'pageview');
 	</script>
 </head>
-<body class="home blog two-column right-sidebar" data-twttr-rendered="true">
+<body id="home" class="home blog two-column right-sidebar" data-twttr-rendered="true">
 	<div style="height:100%" id="page">
 
 		<header id="branding" class="site-header" role="banner">
@@ -63,9 +62,9 @@
 					<nav role="navigation" class="site-navigation main-navigation grid_11" id="site-navigation">
 						<div class="menu-wplook-main-menu-container">
 							<ul id="menu-wplook-main-menu" class="menu">
-								<li class="menu-item "><a href="index.html">Home</a></li>
+								<li class="menu-item "><a href="#home" class="smoothScroll">Home</a></li>
 								<li class="donate"><a href="#">Donate</a></li>
-								<li class="menu-item "><a href="#stories">Our Stories</a>
+								<li class="menu-item "><a href="#stories" class="smoothScroll">Our Stories</a>
 								</li>
 							</ul>
 						</div>
@@ -130,9 +129,6 @@
 	              
 	                </div>
 				</div>
-				<script type="text/javascript">		
-					$(document).ready(function(){ $('#features').jshowoff(); });
-				</script>
 					</div>
 					</aside>
 				</div>
@@ -218,5 +214,26 @@
 
 	</div>
 	<!-- /#page -->
+	<!-- Smooth Scrolling Script -->
+	<script type="text/javascript">
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top
+		        }, 1000);
+		        return false;
+		      }
+		    }
+		  });
+		});
+	</script>
+	<!-- Content Rotator Script -->
+	<script type="text/javascript">	
+		$(document).ready(function(){ $('#features').jshowoff(); });
+	</script>
 </body>
 </html>
