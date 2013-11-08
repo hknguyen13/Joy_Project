@@ -405,7 +405,22 @@ a:hover {
 }
 
 #main .inner{
-	margin: 95px 0;
+	margin-top: 8%;
+}
+
+/* How It Works Section */
+#how-it-works {
+	background-color: rgba(120,120,120,0.1);
+	padding: 2em;
+	border-radius: 10px;
+}
+
+div #how-it-works p {
+	color: black;
+}
+
+#how-it-works strong {
+	color: #e53b51;
 }
 
 
@@ -1911,7 +1926,7 @@ aside ul {
 	Home page widgets
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
-p.description {
+p.description, #how-it-works p {
 	color: #fff;
 	padding: 15px;
 	padding-left: 30px;
